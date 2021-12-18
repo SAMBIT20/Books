@@ -1,0 +1,28 @@
+.pdf-viewer {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.pdf-viewer iframe {
+  border: 5px solid rgb(132, 0, 255);
+  border-radius: 5px;
+}
+.top-div {
+  width: 640px;
+  height: 480px;
+  position: relative;
+}
+.buttom-div {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  opacity: 0;
+  right: 0px;
+  top: 0px;
+}
+
+@media print {
+  .pdf-container {
+    display: none;
+  }
+}

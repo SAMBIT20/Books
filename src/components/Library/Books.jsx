@@ -1,8 +1,14 @@
 import React from "react";
 import "./Books.css";
+import { useNavigate } from "react-router-dom";
 
 const Books = ({ allbooks }) => {
-  console.log(allbooks);
+  let navigate = useNavigate();
+
+  function handleClick() {
+    navigate(`/read/${allbooks.id}`);
+  }
+
   return (
     <div className="books-container">
       {allbooks.map((data) => (
@@ -20,7 +26,15 @@ const Books = ({ allbooks }) => {
               <p>{data.Author}</p>
               <div class="product-bottom-details">
                 <div class="product-button">
-                  <button>Read Now</button>
+                  <button
+                    onClick={() => {
+                      navigate(`/read/${data.id}`, {
+                        state: { pdffile: data.pdf },
+                      });
+                    }}
+                  >
+                    Read Now
+                  </button>
                 </div>
                 <div class="product-links">
                   <a href="">

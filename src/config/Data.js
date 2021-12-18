@@ -5,6 +5,7 @@ export const data = [
     Author: "Kyle Simpson ",
     img: "https://images2.imgbox.com/78/3a/aA9ImVxQ_o.jpg",
     genres: "Computer Science",
+    pdf: "https://drive.google.com/file/d/1Zp2NOrGDtCGtazNJzwLy1hhVt2tghHzC/preview",
   },
   {
     id: 2,
