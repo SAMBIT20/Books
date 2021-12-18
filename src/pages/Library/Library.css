@@ -1,0 +1,35 @@
+.heading-books {
+  text-align: center;
+  margin-top: 1rem;
+}
+.heading-books h2 {
+  font-size: 30px;
+  color: #014b9e;
+}
+.heading-books h3 {
+  color: rgb(173, 172, 172);
+}
+.Search-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.Search-container input {
+  padding: 12px;
+  width: 30rem;
+  border: 2px solid #4dabf7;
+  box-shadow: rgba(80, 63, 205, 0.5) 0 1px 10px;
+  border-radius: 5px;
+  outline: none;
+}
+.search-btn {
+  width: 40px;
+  border-left: none;
+  border: 2px solid #4dabf7;
+  box-shadow: rgba(80, 63, 205, 0.5) 0 1px 10px;
+  border-radius: 5px;
+  background: #fff;
+}
+.fa-search {
+  color: gray;
+}

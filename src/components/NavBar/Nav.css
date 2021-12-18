@@ -11,6 +11,7 @@
 .div-right ul li {
   list-style: none;
   margin-right: 40px;
+  margin-top: 20px;
 }
 .div-right ul li Link {
   text-decoration: none;
