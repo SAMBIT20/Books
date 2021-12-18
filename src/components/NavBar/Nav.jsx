@@ -1,6 +1,7 @@
 import React from "react";
 import "./Nav.css";
 import Logo from "../../assets/new-logo.gif";
+import { Routes, Route, Link } from "react-router-dom";
 
 const Nav = () => {
   return (
@@ -13,10 +14,10 @@ const Nav = () => {
       <div className="div-right">
         <ul>
           <li>
-            <a href="#">Library</a>
+            <Link to="/library">Library</Link>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <Link to="/contact">Contact</Link>
           </li>
         </ul>
       </div>
