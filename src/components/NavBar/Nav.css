@@ -1,0 +1,21 @@
+.nav-wrapper {
+  height: 8vh;
+  display: flex;
+  justify-content: space-evenly;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  background-color: #f8f8f8;
+}
+.div-right ul {
+  display: flex;
+}
+.div-right ul li {
+  list-style: none;
+  margin-right: 40px;
+}
+.div-right ul li a {
+  text-decoration: none;
+}
+.logo-books {
+  width: 11.3rem;
+  padding-top: 0;
+}
