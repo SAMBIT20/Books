@@ -1,6 +1,6 @@
 .searchBar-wrap {
   background-color: #f0f0f0;
-  width: fit-content;
+  width: 30rem;
   margin: 2.5rem auto 4rem auto;
   padding: 0.5rem;
   border-radius: 5px;
@@ -29,4 +29,10 @@
   border-radius: 5px;
   background-color: #0f52ba;
   color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+  .searchBar-wrap {
+    width: fit-content;
+  }
 }
