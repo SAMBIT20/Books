@@ -1,10 +1,35 @@
-import React from "react";
+import React, { useState } from "react";
+import EmptyList from "../../components/EmptyCart/EmptyList";
 import Books from "../../components/Library/Books";
+import Search from "../../components/Search/Search";
 import { data } from "../../config/Data";
 
 import "./Library.css";
-console.log(data);
 const Library = () => {
+  const [books, setBooks] = useState(data);
+  const [searchKey, setSearchKey] = useState("");
+
+  //Search Submit
+  const handelSearchSubmit = (event) => {
+    event.preventDefault();
+    handleSearchResults();
+  };
+
+  //Search for blogs by catagory
+  const handleSearchResults = () => {
+    const allBooks = data;
+    const filteredBlogs = allBooks.filter((book) =>
+      book.title.toLowerCase().includes(searchKey.toLowerCase().trim())
+    );
+    setBooks(filteredBlogs);
+  };
+  console.log(books);
+  // Clear search and show all blogs
+  const handleClearSearch = () => {
+    setBooks(data);
+    setSearchKey("");
+  };
+
   return (
     <div className="books-wrapper">
       <div className="heading-books">
@@ -13,12 +38,15 @@ const Library = () => {
       </div>
 
       <div className="Search-container">
-        <input type="text" placeholder="Type Book Name For Search" />
-        <button className="search-btn">
-          <i class="fas fa-search"></i>
-        </button>
+        <Search
+          value={searchKey}
+          clearSearch={handleClearSearch}
+          formSubmit={handelSearchSubmit}
+          handelSearch={(e) => setSearchKey(e.target.value)}
+        />
       </div>
-      <Books allbooks={data} />
+
+      {!books.length ? <EmptyList /> : <Books allbooks={books} />}
     </div>
   );
 };
