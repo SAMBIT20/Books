@@ -4,6 +4,7 @@ import Home from "./pages/Home/Home";
 import Library from "./pages/Library/Library";
 import Read from "./pages/ReadPage/Read";
 import NewNav from "./components/NavBar/NewNav";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
       </Routes>
 
       {/* Footer----------------------------------------------- */}
+      <Footer />
     </div>
   );
 };
