@@ -48,7 +48,7 @@
 
 .product-catagory {
   display: block;
-  font-size: 12px;
+  font-size: 12px !important;
   font-weight: 700;
   text-transform: uppercase;
   color: #ccc;
@@ -58,6 +58,7 @@
 .product-details h4 a {
   font-weight: 500;
   display: block;
+  font-size: 16px;
   height: 1.5rem;
   margin-bottom: 18px;
   text-transform: uppercase;

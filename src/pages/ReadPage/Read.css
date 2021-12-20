@@ -1,7 +1,7 @@
 .pdf-viewer {
   display: flex;
   justify-content: center;
-  margin-top: 2rem;
+  margin-top: 5rem;
 }
 .pdf-viewer iframe {
   border: 5px solid rgb(132, 0, 255);

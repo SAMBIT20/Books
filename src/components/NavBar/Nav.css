@@ -1,22 +1,4 @@
-.nav-wrapper {
-  height: 8vh;
-  display: flex;
-  justify-content: space-evenly;
-  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-  background-color: #f8f8f8;
-}
-.div-right ul {
-  display: flex;
-}
-.div-right ul li {
-  list-style: none;
-  margin-right: 40px;
-  margin-top: 20px;
-}
-.div-right ul li Link {
-  text-decoration: none;
-}
 .logo-books {
-  width: 11.3rem;
+  width: 9rem;
   padding-top: 0;
 }

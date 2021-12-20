@@ -23,7 +23,7 @@ const Library = () => {
     );
     setBooks(filteredBlogs);
   };
-  console.log(books);
+
   // Clear search and show all blogs
   const handleClearSearch = () => {
     setBooks(data);

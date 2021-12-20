@@ -1,3 +1,6 @@
+.books-wrapper {
+  margin-top: 5rem;
+}
 .heading-books {
   text-align: center;
   margin-top: 1rem;
@@ -8,6 +11,7 @@
 }
 .heading-books h3 {
   color: rgb(173, 172, 172);
+  font-size: 20px;
 }
 .Search-container {
   display: flex;
