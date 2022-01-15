@@ -13,6 +13,7 @@ export const data = [
     Author: "Jon Duckett ",
     img: "https://images2.imgbox.com/68/11/RsygCJHn_o.jpg",
     genres: "Computer Science",
+    // pdf: "https://wtf.tw/ref/duckett.pdf",
   },
   {
     id: 3,
@@ -27,6 +28,7 @@ export const data = [
     Author: "Narasimha Karumanchi ",
     img: "https://images2.imgbox.com/54/25/GBrI8T3p_o.jpg",
     genres: "Computer Science",
+    pdf: "https://www.docdroid.net/ZPfHmS5/data-structures-and-algorithms-narasimha-karumanchi-pdf",
   },
   {
     id: 5,
@@ -34,6 +36,7 @@ export const data = [
     Author: "Zed Shaw",
     img: "https://images2.imgbox.com/2b/89/S9teD06z_o.jpg",
     genres: "Computer Science",
+    pdf: "https://drive.google.com/file/d/1zYFxmsjT7pXe-qqxs0xJjfl-N7dgEXgg/preview",
   },
   {
     id: 6,
@@ -41,5 +44,6 @@ export const data = [
     Author: "Kathy Sierra, Bert Bates",
     img: "https://images2.imgbox.com/0e/50/dsIyLlWP_o.jpg",
     genres: "Computer Science",
+    pdf: "https://docs.google.com/file/d/0BwxUBHTpU9kCU0xubVhyYlp0bWc/edit?resourcekey=0-sk68B4dt12P8MPoLieNBBA",
   },
 ];
