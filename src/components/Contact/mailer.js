@@ -32,7 +32,7 @@ const mailer = () => {
           <input type="text" name="name" className="form-control" />
         </div>
         <div className="form-group">
-          <label>Emial</label>
+          <label>Email</label>
           <input type="email" name="user_email" className="form-control" />
         </div>
         <div className="form-group">

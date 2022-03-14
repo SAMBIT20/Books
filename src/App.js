@@ -6,6 +6,7 @@ import Read from "./pages/ReadPage/Read";
 import NewNav from "./components/NavBar/NewNav";
 import Footer from "./components/Footer/Footer";
 import Contact from "./pages/Contact/Contact";
+import ChatBoat from "./components/ChatBoat/ChatBoat";
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
       </Routes>
 
       {/* Footer----------------------------------------------- */}
+      <ChatBoat />
       <Footer />
     </div>
   );
