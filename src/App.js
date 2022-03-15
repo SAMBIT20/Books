@@ -7,6 +7,7 @@ import NewNav from "./components/NavBar/NewNav";
 import Footer from "./components/Footer/Footer";
 import Contact from "./pages/Contact/Contact";
 import ChatBoat from "./components/ChatBoat/ChatBoat";
+import Errorpage from "./pages/404page/404page";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
         <Route path="/library" element={<Library />} />
         <Route path="/read/:id" element={<Read />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="*" element={<Errorpage />} />
       </Routes>
 
       {/* Footer----------------------------------------------- */}
