@@ -15,14 +15,13 @@ const App = () => {
       {/* NAvbar---------------------------------------------- */}
       <NewNav />
       <Routes>
+        <Route path="/*" element={<Errorpage />} />
         {/* Home Page */}
         <Route path="/" element={<Home />} />
-
         {/* Library Page */}
         <Route path="/library" element={<Library />} />
         <Route path="/read/:id" element={<Read />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="*" element={<Errorpage />} />
       </Routes>
 
       {/* Footer----------------------------------------------- */}
