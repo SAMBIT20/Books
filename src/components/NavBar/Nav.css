@@ -2,3 +2,11 @@
   width: 9rem;
   padding-top: 0;
 }
+.btn-outline-primary {
+  background-color: #e5e9fe;
+  margin-left: 2rem;
+}
+.avatar {
+  width: 30px;
+  margin-right: 0.5rem;
+}

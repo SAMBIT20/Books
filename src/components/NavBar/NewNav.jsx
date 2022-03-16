@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Logo from "../../assets/new-logo.gif";
+import Login from "./Login";
+import Logout from "./Logout";
 import "./Nav.css";
 const NewNav = () => {
   return (
@@ -80,6 +82,8 @@ const NewNav = () => {
               </a>{" "}
             </li>
           </ul>
+          <Login />
+          <Logout />
         </div>
       </div>
     </nav>
