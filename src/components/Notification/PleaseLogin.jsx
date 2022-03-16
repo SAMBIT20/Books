@@ -7,7 +7,9 @@ const PleaseLogin = () => {
     <div className="alert-wrapper">
       <h2> Please Login</h2>
       <p>Page access only for login user</p>
-      <img src={LogingGif} alt="" />
+      <div className="image-noti">
+        <img src={LogingGif} alt="" />
+      </div>
     </div>
   );
 };

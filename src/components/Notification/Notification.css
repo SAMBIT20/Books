@@ -6,3 +6,19 @@
 .alert-wrapper h2 {
   color: #7544d5;
 }
+.image-noti {
+  margin-top: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .alert-wrapper {
+    padding-top: 5rem;
+  }
+  .image-noti {
+    width: 100vw;
+    padding-top: 1rem;
+  }
+  .image-noti img {
+    width: 100%;
+  }
+}
