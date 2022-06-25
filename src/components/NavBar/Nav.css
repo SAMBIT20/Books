@@ -10,3 +10,8 @@
   width: 30px;
   margin-right: 0.5rem;
 }
+.giet-log{
+  width: 50px;
+  height: auto;
+  position: relative;
+}

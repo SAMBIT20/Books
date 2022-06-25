@@ -25,3 +25,24 @@
 .btn-primary {
   margin-top: 30px;
 }
+.contact-wrapper{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.whatsapp-img{
+width: 400px;
+height: auto;
+}
+.contact-pg-header{
+  text-align: center;
+  font-size: 25px;
+  margin: 25px;
+  color: #0F52BA;
+  margin-top: -20px;
+}
+.wp-img-wrapper{
+  align-items: center;
+  margin: 25px;
+  margin-right: 30px;
+}

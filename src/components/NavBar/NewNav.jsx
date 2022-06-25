@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Logo from "../../assets/new-logo.gif";
 import Login from "./Login";
 import Logout from "./Logout";
+import GietLogo from "../../assets/giet-logo.png";
 import "./Nav.css";
 const NewNav = () => {
   return (
@@ -11,6 +12,9 @@ const NewNav = () => {
         {" "}
         <Link to="/" className="navbar-brand d-flex align-items-center">
           <img className="logo-books" src={Logo} alt="" />
+          <div className="giet-logo-container">
+            <img src={GietLogo} alt="giet" className="giet-log" />
+          </div>
         </Link>{" "}
         <button
           className="navbar-toggler navbar-toggler-right border-0"

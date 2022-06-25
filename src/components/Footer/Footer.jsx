@@ -40,8 +40,7 @@ const Footer = () => {
               <ul>
                 <li>
                   <a href="#">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Cupiditate adipisci quia ab omnis id ipsum quae inventore{" "}
+                    Baniatangi, Po: Bajapur, Khordha, Odisha Pin - 752060
                   </a>
                 </li>
               </ul>
