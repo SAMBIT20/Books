@@ -60,6 +60,16 @@ const NewNav = () => {
                 CodeCombine
               </a>{" "}
             </li>
+
+            <li className="nav-item px-lg-2">
+              {" "}
+              <Link to="/academic" className="nav-link">
+                <span className="d-inline-block d-lg-none icon-width">
+                  <i className="far fa-envelope"></i>
+                </span>
+                Calendar
+              </Link>{" "}
+            </li>
             <li className="nav-item px-lg-2">
               {" "}
               <Link to="/contact" className="nav-link">

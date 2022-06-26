@@ -39,3 +39,19 @@ a {
     transparent
   );
 }
+.academic {
+  margin-top: 5rem;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #0ae;
+}
+.pdf-viwer{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.pdf-viwer iframe{
+  border: 4px solid blueviolet;
+  border-radius: 5px;
+}
