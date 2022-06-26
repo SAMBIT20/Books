@@ -32,7 +32,7 @@ const mailer = () => {
       </h2>
       <div className="contact-wrapper">
         <div className="form-box border mailer">
-          <h1>Contact Form</h1>
+          <h1>Request Form</h1>
           <form className="row row-mailer" onSubmit={sendEmial}>
             <div className="form-group">
               <label>Name</label>
@@ -43,11 +43,12 @@ const mailer = () => {
               <input type="email" name="user_email" className="form-control" />
             </div>
             <div className="form-group">
-              <label>Message</label>
+              <label>Book Detail </label>
               <textarea
                 name="message"
                 rows="4"
                 className="form-control"
+                placeholder="Write your book name and department"
               ></textarea>
             </div>
 

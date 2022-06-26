@@ -63,7 +63,7 @@ export const data = [
       "https://drive.google.com/file/d/1Rs60TjAtU22jJMJImhJJYvMDupQEXgUL/preview",
   },
   {
-    id: 7,
+    id: 8,
     title: "Digital System Design, 4th Edition,2008 ",
     Author: "John Wakerley",
     img: "https://images2.imgbox.com/29/2e/FGsSb1iG_o.jpg",
@@ -72,7 +72,7 @@ export const data = [
       "https://drive.google.com/file/d/1yG6OLgTAMiCOAkPkouAC9La3x_ubTzYr/preview",
   },
   {
-    id: 7,
+    id: 9,
     title: "Friction, wear, lubrication",
     Author: "K.C Ludema",
     img: "https://images2.imgbox.com/1b/4c/vMzeH6S9_o.jpg",

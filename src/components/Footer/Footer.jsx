@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Footer.css";
+import GiLogo from "../../assets/giet-logo.png";
 const Footer = () => {
   return (
     <div>
@@ -42,6 +43,7 @@ const Footer = () => {
                   <a href="#">
                     Baniatangi, Po: Bajapur, Khordha, Odisha Pin - 752060
                   </a>
+                  <img src={GiLogo} alt="giet" className="footer-logo" />
                 </li>
               </ul>
             </div>
