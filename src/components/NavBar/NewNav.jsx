@@ -48,6 +48,20 @@ const NewNav = () => {
 
             <li className="nav-item px-lg-2">
               {" "}
+              <a
+                href="https://code-combine.vercel.app/"
+                target="_blank"
+                className="nav-link"
+                rel="noreferrer"
+              >
+                <span className="d-inline-block d-lg-none icon-width">
+                  <i className="far fa-envelope"></i>
+                </span>
+                CodeCombine
+              </a>{" "}
+            </li>
+            <li className="nav-item px-lg-2">
+              {" "}
               <Link to="/contact" className="nav-link">
                 <span className="d-inline-block d-lg-none icon-width">
                   <i className="far fa-envelope"></i>
