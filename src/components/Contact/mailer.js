@@ -16,7 +16,7 @@ const mailer = () => {
       .then(
         (response) => {
           console.log("SUCCESS!", response.status, response.text);
-          alert("SUCCESS!🚀 Form Sumbit SucessFuly 😊");
+          alert("SUCCESS!🚀 Form Submit SucessFuly 😊");
         },
         (err) => {
           console.log("FAILED...", err);

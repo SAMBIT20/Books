@@ -8,7 +8,7 @@ const Search = ({ formSubmit, value, handelSearch, clearSearch }) => {
         <input
           type="text"
           onChange={handelSearch}
-          placeholder="Seacrch Your Book Title"
+          placeholder="Search Your Book Title"
           value={value}
         />
         {value && <span onClick={clearSearch}>X</span>}
